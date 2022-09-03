@@ -1,0 +1,45 @@
+//
+//  TEPrefixHeader.pch
+//  TechExploreDemo
+//
+//  Created by xjiang on 2021/12/23.
+//
+
+#ifndef TEPrefixHeader_pch
+#define TEPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIColor+Addition.h"
+#import "YYKit/YYKit.h"
+
+
+///刘海屏适配
+#define iPhoneX ({\
+    BOOL isBangsScreen = NO; \
+    if (@available(iOS 11.0, *)) { \
+    UIWindow *window = [[UIApplication sharedApplication].windows firstObject]; \
+    isBangsScreen = window.safeAreaInsets.bottom > 0; \
+    } \
+    isBangsScreen; \
+})
+
+#define kNavHeight (iPhoneX ? 88 : 64)
+#define kTabbarHeight 49
+#define kStatusBarHeight (iPhoneX ? 44 : 20)
+#define kSafeAreaTopHeight (iPhoneX ? 88 : 64)
+#define kSafeAreaBottomHeight (iPhoneX ? 34 : 0)
+#define kStatusHeight (iPhoneX ? 24 : 0)
+
+
+/// Size
+#define kWinSize [UIScreen mainScreen].bounds.size
+#define kWinWidth kWinSize.width
+#define kWinHeight kWinSize.height
+ 
+//Color
+#define kColorHex(_hex_)   [UIColor colorWithHexString:((__bridge NSString *)CFSTR(#_hex_))]
+
+
+#endif /* TEPrefixHeader_pch */

@@ -1,0 +1,68 @@
+PODS:
+  - AAChartKit (6.0.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - DoraemonKit (3.1.2):
+    - DoraemonKit/Core (= 3.1.2)
+  - DoraemonKit/Core (3.1.2):
+    - AFNetworking
+    - FMDB
+    - GCDWebServer
+    - GCDWebServer/WebDAV
+    - GCDWebServer/WebUploader
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebDAV (3.5.4):
+    - GCDWebServer/Core
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
+  - LookinServer (1.0.4)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AAChartKit
+  - DoraemonKit
+  - LookinServer
+  - YYKit
+
+SPEC REPOS:
+  trunk:
+    - AAChartKit
+    - AFNetworking
+    - DoraemonKit
+    - FMDB
+    - GCDWebServer
+    - LookinServer
+    - YYKit
+
+SPEC CHECKSUMS:
+  AAChartKit: dffacac3b641f2d2dc2fbf5f227350d22faee784
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  DoraemonKit: 0a040ae24386654e2a2d2c8d029f5ff5837de3c3
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  LookinServer: 743c1681771d0a8dcc38825325a080c3186404a5
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 21cd8c8c9ade4dc8e329061f2151ab394509ad79
+
+COCOAPODS: 1.11.2

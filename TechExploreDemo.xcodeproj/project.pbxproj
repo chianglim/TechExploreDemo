@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71BA2905016848317F1A8C4D /* Pods_TechExploreDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1694CF496F37234A6AE63B /* Pods_TechExploreDemo.framework */; };
+		CA1A5C8227E97DC2001B3336 /* TEChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5C8127E97DC2001B3336 /* TEChartController.m */; };
+		CA1CD3ED25DE1ECE005F21AA /* TEObjectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1CD3EC25DE1ECE005F21AA /* TEObjectionController.m */; };
+		CA276DAF277480B000E4CAE1 /* TEGestureAndUIEventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA276DAE277480B000E4CAE1 /* TEGestureAndUIEventsController.m */; };
+		CA276DB2277482AF00E4CAE1 /* TETouchViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = CA276DB1277482AF00E4CAE1 /* TETouchViewA.m */; };
+		CA276DB5277482CC00E4CAE1 /* TETouchViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = CA276DB4277482CC00E4CAE1 /* TETouchViewB.m */; };
+		CA276DB8277482E900E4CAE1 /* TETouchViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA276DB7277482E900E4CAE1 /* TETouchViewC.m */; };
+		CA276DBE2774A85E00E4CAE1 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CA276DBC2774A85E00E4CAE1 /* UIColor+Addition.m */; };
+		CA289E6F283C749A009F7326 /* TEAVFondationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA289E6E283C749A009F7326 /* TEAVFondationController.m */; };
+		CA70329227E6C37500FA27F4 /* TECoreGraphicController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA70329127E6C37500FA27F4 /* TECoreGraphicController.m */; };
+		CA70329527E6C5BB00FA27F4 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA70329427E6C5BB00FA27F4 /* TestView.m */; };
+		CA78005725C8F97B00A9D9F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA78005625C8F97B00A9D9F6 /* AppDelegate.m */; };
+		CA78006025C8F97B00A9D9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA78005E25C8F97B00A9D9F6 /* Main.storyboard */; };
+		CA78006225C8F97D00A9D9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA78006125C8F97D00A9D9F6 /* Assets.xcassets */; };
+		CA78006525C8F97D00A9D9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA78006325C8F97D00A9D9F6 /* LaunchScreen.storyboard */; };
+		CA78006825C8F97D00A9D9F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA78006725C8F97D00A9D9F6 /* main.m */; };
+		CA8F938325C906A200444EFC /* TEBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8F938225C906A200444EFC /* TEBaseController.m */; };
+		CA8F938825C906E100444EFC /* TEMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8F938725C906E100444EFC /* TEMainController.m */; };
+		CA8F939525C914AB00444EFC /* TEItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8F939425C914AB00444EFC /* TEItemModel.m */; };
+		CA9E0A3125C95BC400F97B11 /* TEFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9E0A3025C95BC400F97B11 /* TEFileUtil.m */; };
+		CAFCCA4427E1773700ACD53F /* TEMeditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCCA4327E1773700ACD53F /* TEMeditorController.m */; };
+		CAFCCA4727E17B1A00ACD53F /* TEMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCCA4627E17B1A00ACD53F /* TEMediator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B6557FEF0EBC3484B205491 /* Pods-TechExploreDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechExploreDemo.debug.xcconfig"; path = "Target Support Files/Pods-TechExploreDemo/Pods-TechExploreDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC8123FDC372FE9A1D6A1CB /* Pods-TechExploreDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechExploreDemo.release.xcconfig"; path = "Target Support Files/Pods-TechExploreDemo/Pods-TechExploreDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CA1A5C8027E97DC2001B3336 /* TEChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEChartController.h; sourceTree = "<group>"; };
+		CA1A5C8127E97DC2001B3336 /* TEChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEChartController.m; sourceTree = "<group>"; };
+		CA1CD3EB25DE1ECE005F21AA /* TEObjectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEObjectionController.h; sourceTree = "<group>"; };
+		CA1CD3EC25DE1ECE005F21AA /* TEObjectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEObjectionController.m; sourceTree = "<group>"; };
+		CA276DAD277480B000E4CAE1 /* TEGestureAndUIEventsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEGestureAndUIEventsController.h; sourceTree = "<group>"; };
+		CA276DAE277480B000E4CAE1 /* TEGestureAndUIEventsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEGestureAndUIEventsController.m; sourceTree = "<group>"; };
+		CA276DB0277482AF00E4CAE1 /* TETouchViewA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TETouchViewA.h; sourceTree = "<group>"; };
+		CA276DB1277482AF00E4CAE1 /* TETouchViewA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TETouchViewA.m; sourceTree = "<group>"; };
+		CA276DB3277482CC00E4CAE1 /* TETouchViewB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TETouchViewB.h; sourceTree = "<group>"; };
+		CA276DB4277482CC00E4CAE1 /* TETouchViewB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TETouchViewB.m; sourceTree = "<group>"; };
+		CA276DB6277482E900E4CAE1 /* TETouchViewC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TETouchViewC.h; sourceTree = "<group>"; };
+		CA276DB7277482E900E4CAE1 /* TETouchViewC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TETouchViewC.m; sourceTree = "<group>"; };
+		CA276DBA27749D5A00E4CAE1 /* TEPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEPrefixHeader.pch; sourceTree = "<group>"; };
+		CA276DBC2774A85E00E4CAE1 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		CA276DBD2774A85E00E4CAE1 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		CA289E6D283C749A009F7326 /* TEAVFondationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEAVFondationController.h; sourceTree = "<group>"; };
+		CA289E6E283C749A009F7326 /* TEAVFondationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEAVFondationController.m; sourceTree = "<group>"; };
+		CA70329027E6C37500FA27F4 /* TECoreGraphicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TECoreGraphicController.h; sourceTree = "<group>"; };
+		CA70329127E6C37500FA27F4 /* TECoreGraphicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TECoreGraphicController.m; sourceTree = "<group>"; };
+		CA70329327E6C5BB00FA27F4 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		CA70329427E6C5BB00FA27F4 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		CA78005225C8F97B00A9D9F6 /* TechExploreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechExploreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA78005525C8F97B00A9D9F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA78005625C8F97B00A9D9F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA78005F25C8F97B00A9D9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA78006125C8F97D00A9D9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA78006425C8F97D00A9D9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA78006625C8F97D00A9D9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA78006725C8F97D00A9D9F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA8F938125C906A200444EFC /* TEBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEBaseController.h; sourceTree = "<group>"; };
+		CA8F938225C906A200444EFC /* TEBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEBaseController.m; sourceTree = "<group>"; };
+		CA8F938625C906E100444EFC /* TEMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEMainController.h; sourceTree = "<group>"; };
+		CA8F938725C906E100444EFC /* TEMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEMainController.m; sourceTree = "<group>"; };
+		CA8F939325C914AB00444EFC /* TEItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEItemModel.h; sourceTree = "<group>"; };
+		CA8F939425C914AB00444EFC /* TEItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEItemModel.m; sourceTree = "<group>"; };
+		CA9E0A2F25C95BC400F97B11 /* TEFileUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEFileUtil.h; sourceTree = "<group>"; };
+		CA9E0A3025C95BC400F97B11 /* TEFileUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEFileUtil.m; sourceTree = "<group>"; };
+		CAFCCA4227E1773700ACD53F /* TEMeditorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEMeditorController.h; sourceTree = "<group>"; };
+		CAFCCA4327E1773700ACD53F /* TEMeditorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEMeditorController.m; sourceTree = "<group>"; };
+		CAFCCA4527E17B1A00ACD53F /* TEMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEMediator.h; sourceTree = "<group>"; };
+		CAFCCA4627E17B1A00ACD53F /* TEMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEMediator.m; sourceTree = "<group>"; };
+		EA1694CF496F37234A6AE63B /* Pods_TechExploreDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechExploreDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA78004F25C8F97B00A9D9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BA2905016848317F1A8C4D /* Pods_TechExploreDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A66996890865E672CE2E6AED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B6557FEF0EBC3484B205491 /* Pods-TechExploreDemo.debug.xcconfig */,
+				BEC8123FDC372FE9A1D6A1CB /* Pods-TechExploreDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C72EA39AB82E2924A6FE913E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA1694CF496F37234A6AE63B /* Pods_TechExploreDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1A5C7F27E97D90001B3336 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				CA1A5C8027E97DC2001B3336 /* TEChartController.h */,
+				CA1A5C8127E97DC2001B3336 /* TEChartController.m */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		CA1CD3E425DE1E00005F21AA /* Objection */ = {
+			isa = PBXGroup;
+			children = (
+				CA1CD3EB25DE1ECE005F21AA /* TEObjectionController.h */,
+				CA1CD3EC25DE1ECE005F21AA /* TEObjectionController.m */,
+			);
+			path = Objection;
+			sourceTree = "<group>";
+		};
+		CA276DAC27747FE600E4CAE1 /* GestureAndUIEvents */ = {
+			isa = PBXGroup;
+			children = (
+				CA276DAD277480B000E4CAE1 /* TEGestureAndUIEventsController.h */,
+				CA276DAE277480B000E4CAE1 /* TEGestureAndUIEventsController.m */,
+				CA276DB0277482AF00E4CAE1 /* TETouchViewA.h */,
+				CA276DB1277482AF00E4CAE1 /* TETouchViewA.m */,
+				CA276DB3277482CC00E4CAE1 /* TETouchViewB.h */,
+				CA276DB4277482CC00E4CAE1 /* TETouchViewB.m */,
+				CA276DB6277482E900E4CAE1 /* TETouchViewC.h */,
+				CA276DB7277482E900E4CAE1 /* TETouchViewC.m */,
+			);
+			path = GestureAndUIEvents;
+			sourceTree = "<group>";
+		};
+		CA276DBB2774A80700E4CAE1 /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				CA276DBD2774A85E00E4CAE1 /* UIColor+Addition.h */,
+				CA276DBC2774A85E00E4CAE1 /* UIColor+Addition.m */,
+			);
+			path = Extend;
+			sourceTree = "<group>";
+		};
+		CA289E6C283C749A009F7326 /* AVFondation */ = {
+			isa = PBXGroup;
+			children = (
+				CA289E6D283C749A009F7326 /* TEAVFondationController.h */,
+				CA289E6E283C749A009F7326 /* TEAVFondationController.m */,
+			);
+			path = AVFondation;
+			sourceTree = "<group>";
+		};
+		CA70328F27E6C32300FA27F4 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				CA70329027E6C37500FA27F4 /* TECoreGraphicController.h */,
+				CA70329127E6C37500FA27F4 /* TECoreGraphicController.m */,
+				CA70329327E6C5BB00FA27F4 /* TestView.h */,
+				CA70329427E6C5BB00FA27F4 /* TestView.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		CA78004925C8F97B00A9D9F6 = {
+			isa = PBXGroup;
+			children = (
+				CA78005425C8F97B00A9D9F6 /* TechExploreDemo */,
+				CA78005325C8F97B00A9D9F6 /* Products */,
+				A66996890865E672CE2E6AED /* Pods */,
+				C72EA39AB82E2924A6FE913E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA78005325C8F97B00A9D9F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA78005225C8F97B00A9D9F6 /* TechExploreDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA78005425C8F97B00A9D9F6 /* TechExploreDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CA276DBB2774A80700E4CAE1 /* Extend */,
+				CA9E0A2D25C95B9D00F97B11 /* Util */,
+				CA8F939125C9147200444EFC /* Base */,
+				CA78007A25C9005300A9D9F6 /* Main */,
+				CA1CD3E425DE1E00005F21AA /* Objection */,
+				CAFCCA4127E176D600ACD53F /* Meditor */,
+				CA70328F27E6C32300FA27F4 /* CoreGraphics */,
+				CA276DAC27747FE600E4CAE1 /* GestureAndUIEvents */,
+				CA289E6C283C749A009F7326 /* AVFondation */,
+				CA1A5C7F27E97D90001B3336 /* Charts */,
+				CA78005E25C8F97B00A9D9F6 /* Main.storyboard */,
+				CA78005525C8F97B00A9D9F6 /* AppDelegate.h */,
+				CA78005625C8F97B00A9D9F6 /* AppDelegate.m */,
+				CA78006125C8F97D00A9D9F6 /* Assets.xcassets */,
+				CA78006325C8F97D00A9D9F6 /* LaunchScreen.storyboard */,
+				CA78006625C8F97D00A9D9F6 /* Info.plist */,
+				CA78006725C8F97D00A9D9F6 /* main.m */,
+				CA276DBA27749D5A00E4CAE1 /* TEPrefixHeader.pch */,
+			);
+			path = TechExploreDemo;
+			sourceTree = "<group>";
+		};
+		CA78007A25C9005300A9D9F6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F938625C906E100444EFC /* TEMainController.h */,
+				CA8F938725C906E100444EFC /* TEMainController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CA8F939125C9147200444EFC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F938125C906A200444EFC /* TEBaseController.h */,
+				CA8F938225C906A200444EFC /* TEBaseController.m */,
+				CA8F939325C914AB00444EFC /* TEItemModel.h */,
+				CA8F939425C914AB00444EFC /* TEItemModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CA9E0A2D25C95B9D00F97B11 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CA9E0A2F25C95BC400F97B11 /* TEFileUtil.h */,
+				CA9E0A3025C95BC400F97B11 /* TEFileUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		CAFCCA4127E176D600ACD53F /* Meditor */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCCA4227E1773700ACD53F /* TEMeditorController.h */,
+				CAFCCA4327E1773700ACD53F /* TEMeditorController.m */,
+				CAFCCA4527E17B1A00ACD53F /* TEMediator.h */,
+				CAFCCA4627E17B1A00ACD53F /* TEMediator.m */,
+			);
+			path = Meditor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA78005125C8F97B00A9D9F6 /* TechExploreDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA78006B25C8F97D00A9D9F6 /* Build configuration list for PBXNativeTarget "TechExploreDemo" */;
+			buildPhases = (
+				FA26183135BCB6557DD7148D /* [CP] Check Pods Manifest.lock */,
+				CA78004E25C8F97B00A9D9F6 /* Sources */,
+				CA78004F25C8F97B00A9D9F6 /* Frameworks */,
+				CA78005025C8F97B00A9D9F6 /* Resources */,
+				084CE96C7C7D382183EE1DC7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechExploreDemo;
+			productName = TechExploreDemo;
+			productReference = CA78005225C8F97B00A9D9F6 /* TechExploreDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA78004A25C8F97B00A9D9F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CA78005125C8F97B00A9D9F6 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = CA78004D25C8F97B00A9D9F6 /* Build configuration list for PBXProject "TechExploreDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA78004925C8F97B00A9D9F6;
+			productRefGroup = CA78005325C8F97B00A9D9F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA78005125C8F97B00A9D9F6 /* TechExploreDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA78005025C8F97B00A9D9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA78006525C8F97D00A9D9F6 /* LaunchScreen.storyboard in Resources */,
+				CA78006225C8F97D00A9D9F6 /* Assets.xcassets in Resources */,
+				CA78006025C8F97B00A9D9F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		084CE96C7C7D382183EE1DC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechExploreDemo/Pods-TechExploreDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechExploreDemo/Pods-TechExploreDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TechExploreDemo/Pods-TechExploreDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA26183135BCB6557DD7148D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechExploreDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA78004E25C8F97B00A9D9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA70329527E6C5BB00FA27F4 /* TestView.m in Sources */,
+				CA276DB8277482E900E4CAE1 /* TETouchViewC.m in Sources */,
+				CA70329227E6C37500FA27F4 /* TECoreGraphicController.m in Sources */,
+				CAFCCA4427E1773700ACD53F /* TEMeditorController.m in Sources */,
+				CA276DBE2774A85E00E4CAE1 /* UIColor+Addition.m in Sources */,
+				CA1A5C8227E97DC2001B3336 /* TEChartController.m in Sources */,
+				CA276DAF277480B000E4CAE1 /* TEGestureAndUIEventsController.m in Sources */,
+				CA8F938325C906A200444EFC /* TEBaseController.m in Sources */,
+				CAFCCA4727E17B1A00ACD53F /* TEMediator.m in Sources */,
+				CA8F939525C914AB00444EFC /* TEItemModel.m in Sources */,
+				CA1CD3ED25DE1ECE005F21AA /* TEObjectionController.m in Sources */,
+				CA276DB5277482CC00E4CAE1 /* TETouchViewB.m in Sources */,
+				CA276DB2277482AF00E4CAE1 /* TETouchViewA.m in Sources */,
+				CA78005725C8F97B00A9D9F6 /* AppDelegate.m in Sources */,
+				CA78006825C8F97D00A9D9F6 /* main.m in Sources */,
+				CA9E0A3125C95BC400F97B11 /* TEFileUtil.m in Sources */,
+				CA289E6F283C749A009F7326 /* TEAVFondationController.m in Sources */,
+				CA8F938825C906E100444EFC /* TEMainController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA78005E25C8F97B00A9D9F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA78005F25C8F97B00A9D9F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA78006325C8F97D00A9D9F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA78006425C8F97D00A9D9F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA78006925C8F97D00A9D9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/TechExploreDemo/TEPrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA78006A25C8F97D00A9D9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/TechExploreDemo/TEPrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA78006C25C8F97D00A9D9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6557FEF0EBC3484B205491 /* Pods-TechExploreDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YVQ6CP8YW4;
+				GCC_INPUT_FILETYPE = automatic;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TechExploreDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codelab.techExplore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA78006D25C8F97D00A9D9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC8123FDC372FE9A1D6A1CB /* Pods-TechExploreDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YVQ6CP8YW4;
+				GCC_INPUT_FILETYPE = automatic;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TechExploreDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codelab.techExplore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA78004D25C8F97B00A9D9F6 /* Build configuration list for PBXProject "TechExploreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA78006925C8F97D00A9D9F6 /* Debug */,
+				CA78006A25C8F97D00A9D9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA78006B25C8F97D00A9D9F6 /* Build configuration list for PBXNativeTarget "TechExploreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA78006C25C8F97D00A9D9F6 /* Debug */,
+				CA78006D25C8F97D00A9D9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA78004A25C8F97B00A9D9F6 /* Project object */;
+}
